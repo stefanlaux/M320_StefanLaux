@@ -13,16 +13,14 @@ Unter Delegation versteht man das weitergeben von bestimmten Aufgaben an eine Me
 
 # Projekt / Umsetzung
 
-    
+    //Program.java
     public void start(){
-        userInterface();
+        bitcoin.getBitcoinPrice();
     }
     
-    public void userInterface(){
-        System.out.println("Was wollen Sie tun?" +
-                "(1) Bitcoinpreis abfragen" +
-                "(2) Bitcoinpreis setzen");
-        System.out.print("Eingabe: ");
+    //Bitcoin.java
+    public int getBitcoinPrice(){
+       return this.bitcoinPrice;
     }
     
  Hier wurde eine Delegation verwendet um die Ausgabe des UI auszulagern
