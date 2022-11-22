@@ -11,5 +11,6 @@ Unter Encapsulation versteht man die Idee Daten und Methoden zu Bündeln wie zB 
 Unter Information Hiding versteht man das schützen von dem Zustand oder der Repräsentation eines Objekts von aussen.
 
 ### Getter / Setter:
+Unter Getter und Setter versteht man eine einfache Methode welche entweder den wert eines Objekts verändert oder den Wert eines Objekts zurück gibt.
 
 ### Delegation: 
