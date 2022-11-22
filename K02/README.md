@@ -15,7 +15,7 @@ Unter Delegation versteht man das weitergeben von bestimmten Aufgaben an eine Me
 
 # Projekt / Umsetzung
 
-    ´´´
+    
     public void start(){
         userInterface();
     }
@@ -26,5 +26,7 @@ Unter Delegation versteht man das weitergeben von bestimmten Aufgaben an eine Me
                 "(2) Bitcoinpreis setzen");
         System.out.print("Eingabe: ");
     }
-    ´´´
+    
+    
+ Hier wurde eine Delegation verwendet um die Ausgabe des UI auszulagern.
 
