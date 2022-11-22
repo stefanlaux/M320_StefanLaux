@@ -10,6 +10,6 @@ Unter Encapsulation versteht man die Idee Daten und Methoden zu Bündeln wie zB 
 ### Information hiding:
 
 
-Getter / Setter:
+### Getter / Setter:
 
-Delegation: 
+### Delegation: 
