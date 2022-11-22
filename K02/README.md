@@ -14,3 +14,4 @@ Unter Information Hiding versteht man das schützen von dem Zustand oder der Rep
 Unter Getter und Setter versteht man eine einfache Methode welche entweder den wert eines Objekts verändert oder den Wert eines Objekts zurück gibt.
 
 ### Delegation: 
+Unter Delegation versteht man das weitergeben von bestimmten Aufgaben an eine Methode oder einen Klasse.
