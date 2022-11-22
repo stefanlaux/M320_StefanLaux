@@ -1,9 +1,5 @@
 # Erarbeitung Begriffe
 
-
-
-# Projekt / Umsetzung
-
 ### Encapsulation:
 Unter Encapsulation versteht man die Idee Daten und Methoden zu Bündeln wie zB in einer Klasse in Java. Um von aussen nicht auf sie direkt zugreifen zu können.
 
@@ -15,3 +11,20 @@ Unter Getter und Setter versteht man eine einfache Methode welche entweder den w
 
 ### Delegation: 
 Unter Delegation versteht man das weitergeben von bestimmten Aufgaben an eine Methode oder einen Klasse.
+
+
+# Projekt / Umsetzung
+
+    ´´´
+    public void start(){
+        userInterface();
+    }
+    
+    public void userInterface(){
+        System.out.println("Was wollen Sie tun?" +
+                "(1) Bitcoinpreis abfragen" +
+                "(2) Bitcoinpreis setzen");
+        System.out.print("Eingabe: ");
+    }
+    ´´´
+
