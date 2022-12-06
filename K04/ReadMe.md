@@ -19,3 +19,5 @@ Bestehen zwischen Objekten von Klassen Beziehungen, dann spricht man von Assozia
 ## Mein Szenario 
 
 ![image](https://user-images.githubusercontent.com/90751877/205921937-6d8b5363-b130-4848-8796-5fc9088816a3.png)
+
+## Szenario von T1
