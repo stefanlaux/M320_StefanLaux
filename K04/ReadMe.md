@@ -14,3 +14,8 @@ Zb. Ein Kapitel kann nicht existieren wenn es kein Buch gibt.
 
 ### Hat Beziehung (Assoziation)
 Bestehen zwischen Objekten von Klassen Beziehungen, dann spricht man von Assoziationen. Dabei kennen sich die Objekte, existieren aber unabhängig voneinander. Ein Objekt, das ein anderes Objekt kennt, verwaltet dieses nicht.
+
+
+## Mein Szenario 
+
+![image](https://user-images.githubusercontent.com/90751877/205921937-6d8b5363-b130-4848-8796-5fc9088816a3.png)
