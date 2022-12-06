@@ -1,10 +1,14 @@
+/**
+ * @author Stefan Laux
+ * @version 1.0
+ * @since 2022
+ */
 public class Program {
-    /*
-    *  Main Method to start the program
-    *  @param args
-    *  @throws TooFewMoneyException
-    *  @author Stefan Laux
-    */
+    /**
+     * Main method
+     * @param args
+     * @throws TooFewMoneyException
+     */
     public static void main(String[] args) throws TooFewMoneyException {
         Menu menu = new Menu(); // Creates a new Menu Object
         while(true){ // Infinite loop

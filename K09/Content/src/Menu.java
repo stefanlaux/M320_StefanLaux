@@ -1,16 +1,18 @@
 // Import library
 import java.util.Scanner; // Scanner Library to scan for input
 
-// Class Menu
+/**
+ * Menu class
+ */
 public class Menu {
 
     // Creates a new Bitcoin Object
     Bitcoin bitcoin = new Bitcoin(15000);
 
-    /*
-    * Method to start the menu
-    * @throws TooFewMoneyException
-    */
+    /**
+     * Method to start the menu
+     * @throws TooFewMoneyException
+     */
     public void start() throws TooFewMoneyException {
         userInterface(); //displays the user interface
         int input = getIntInput();
@@ -30,7 +32,9 @@ public class Menu {
         }
     }
 
-    // Method to display the user interface
+    /**
+     * Method to display the user interface
+     */
     public void userInterface(){
         System.out.println("Was wollen Sie tun?" +
                 "\n(1) Bitcoinpreis abfragen" +
@@ -39,7 +43,10 @@ public class Menu {
         System.out.print("Eingabe: ");
     }
 
-    // Method to get the input from the user
+    /**
+     * Method to get the user input
+     * @return input
+     */
     public int getIntInput() {
         while(true){ // Infinite loop
            try{ // Try to get the input
