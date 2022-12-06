@@ -4,10 +4,12 @@
 Aggregation ist eine Sonderform der Assotiation zwischen zwei Klassen.
 Sie besteht wenn Objekten der beteiligten Klassen diese Beziehungen voiweisen:
 „ist Teil von“, „besteht aus“ oder einfach „hat“
+
 Zb. Eine Tischplatte kann Existieren ohne Tisch
 
 ### Komposition
 Die Komposition ist eine Sonderform der Aggregation. Sie drückt aus, dass die Teile von der Existenz des Ganzen abhängig sind.
+
 Zb. Ein Kapitel kann nicht existieren wenn es kein Buch gibt.
 
 ### Hat Beziehung (Assoziation)
