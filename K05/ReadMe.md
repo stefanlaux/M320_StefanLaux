@@ -18,3 +18,6 @@ In dem Interface kannst du also Konstanten und Funktionen in Form von abstrakten
 ### Polymorphismus
 Polymorphismus bedeutet, dass ein Stück Code mit verschiedenen Datentypen verwendet werden kann. 
 Dies ermöglicht es, Code zu schreiben, der in verschiedenen Situationen wiederverwendet werden kann.
+
+# Beispiel
+![image](https://user-images.githubusercontent.com/90751877/207331659-df19bf55-7cc7-4a6f-affc-77cf04beb69c.png)
