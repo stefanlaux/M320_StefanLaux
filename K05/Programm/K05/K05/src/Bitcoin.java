@@ -23,4 +23,13 @@ public class Bitcoin implements Coin{
     public int setBlock() {
         return this.blockNum++;
     }
+
+
+    public Kurs getKurs() {
+        return kurs;
+    }
+
+    public Netzwerk getNetzwerk() {
+        return netzwerk;
+    }
 }

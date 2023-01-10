@@ -1,4 +1,4 @@
-public class Computer {
+public abstract class Computer {
     private String GPU;
     private String CPU;
 
