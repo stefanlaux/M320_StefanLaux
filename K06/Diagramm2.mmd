@@ -1,0 +1,23 @@
+sequenceDiagram
+
+    actor User
+    User ->> Main : run
+    activate Main
+    participant Apple
+    Main ->> Apple : <<create>>
+    Apple -->> Main : apple
+    participant Tree
+    Main ->> Tree : <<create>>
+    Tree -->> Main : tree
+    Main ->> Tree: addApple(apple)
+    Tree ->> Tree: increaseAppleCount()
+    Tree -->> Main : 
+    participant Translator
+    Main ->> Translator : <<create>>
+    Translator -->> Main : translator
+    Main ->> Translator : translate(tree)
+    Translator -->> Main : "tree: 1 apple"
+    Main -->> User : 
+
+   
+    deactivate Main

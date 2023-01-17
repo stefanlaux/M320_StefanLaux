@@ -1,0 +1,16 @@
+
+sequenceDiagram
+    
+    actor User
+    User ->> Main : run
+    activate Main
+    participant KryptoMiner
+    Main ->> KryptoMiner : <<create>>
+    activate KryptoMiner
+    KryptoMiner -->> Main : miner
+    Main ->> KryptoMiner : getHashRate
+    KryptoMiner -->> Main : h: int
+    Main ->> java.lang : System.out.println(h)
+    java.lang.System -->> Main : 
+    Main -->> User : 
+    deactivate Main

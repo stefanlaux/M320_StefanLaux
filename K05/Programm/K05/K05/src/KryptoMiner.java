@@ -7,5 +7,8 @@ public class KryptoMiner extends Computer{
         this.hashRate = hashRate;
     }
 
+    public int getHashRate() {
+        return hashRate;
+    }
 
 }

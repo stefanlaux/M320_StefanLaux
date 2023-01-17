@@ -9,7 +9,7 @@ public class Main {
         System.out.println(bitcoin.setBlock());
         System.out.println(bitcoin.getNetzwerk().getHashRate());
         System.out.println(bitcoin.getKurs().getPriceDifference());
-
+        System.out.println(miner.getHashRate());
 
     }
 }
