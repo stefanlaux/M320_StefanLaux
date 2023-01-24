@@ -1,0 +1,21 @@
+sequenceDiagram   
+
+actor User    
+User ->> Main : run
+activate Main    
+participant House    
+Main ->> House : <<create>>    
+House -->> Main : house    
+participant City    
+Main ->> City : <<create>>    
+City -->> Main : city    
+Main ->> City: addHouse(house)    
+City ->> City: calculatePopulation()    
+City -->> Main :     
+participant Park    
+Main ->> Park : <<create>>    
+Park -->> Main : park    
+Main ->> City : addPark(park)    
+City -->> Main : 
+Main -->> User :  
+deactivate Main

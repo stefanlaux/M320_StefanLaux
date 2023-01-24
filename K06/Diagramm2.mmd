@@ -12,12 +12,13 @@ sequenceDiagram
     Main ->> Tree: addApple(apple)
     Tree ->> Tree: increaseAppleCount()
     Tree -->> Main : 
-    participant Translator
-    Main ->> Translator : <<create>>
-    Translator -->> Main : translator
-    Main ->> Translator : translate(tree)
-    Translator -->> Main : "tree: 1 apple"
+    participant Visualizer
+    Main ->> Visualizer : <<create>>
+    Visualizer -->> Main : visualizer
+    Main ->> Visualizer : visualize(tree)
+    Visualizer -->> Main : "tree: 1 apple"
     Main -->> User : 
 
    
     deactivate Main
+
