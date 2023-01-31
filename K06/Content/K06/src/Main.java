@@ -6,7 +6,6 @@ class Main {
         city.addHouse(house);
         Park park = new Park();
         city.addPark(park);
-        
     }
 }
 

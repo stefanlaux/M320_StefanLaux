@@ -8,9 +8,9 @@ sequenceDiagram
     Main ->> KryptoMiner : <<create>>
     activate KryptoMiner
     KryptoMiner -->> Main : miner
-    Main ->> KryptoMiner : getHashRate
+    Main ->> KryptoMiner : getHashRate()
     KryptoMiner -->> Main : h: int
     Main ->> java.lang : System.out.println(h)
-    java.lang.System -->> Main : 
+    java.lang -->> Main : 
     Main -->> User : 
     deactivate Main
